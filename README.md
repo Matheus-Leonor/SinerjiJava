@@ -1,4 +1,4 @@
-# SinerjiJava
+# SinerjiJava ⚡
 ## Modelando as classes:
 Apliquei o conceito de orientação a objetos criando uma classe para cada objeto. A primeira classe foi a classe Funcionário, uma classe abstrata pois a ideia não é ser instanciada diretamente,
 mas apenas possuir os atributos comuns de todos os funcionários, assim como os metodos que serão sobreescritos por outras classes derivadas. exemplo: metodo  calcularSalario e calcularBeneficio. 
