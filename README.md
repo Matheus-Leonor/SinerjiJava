@@ -39,7 +39,8 @@ Outro detalhe é que seria bem mais recomendado criar entidades e tabelas no ban
         return totalSalario;
     }
 
-    //3. Cálculo do Total Pago em Benefícios:
+//3. Cálculo do Total Pago em Benefícios:
+    
     public static double calcularTotalBeneficio(List<Funcionario> funcionariosComBeneficio, int mes, int ano) {
         double totalBeneficio = 0.0;
 
@@ -51,7 +52,8 @@ Outro detalhe é que seria bem mais recomendado criar entidades e tabelas no ban
         return totalBeneficio;
     }
 
-    //4. Funcionário com Maior Receita (Salário + Benefício):
+ //4. Funcionário com Maior Receita (Salário + Benefício):
+    
     public static Funcionario funcionarioComMaiorReceita(List<Funcionario> funcionarios, int mes, int ano) {
         Funcionario funcionarioMaiorReceita = null;
         double maiorReceita = Double.MIN_VALUE;
@@ -67,7 +69,8 @@ Outro detalhe é que seria bem mais recomendado criar entidades e tabelas no ban
         return funcionarioMaiorReceita;
     }
 
-    //5. Funcionário com Maior Benefício:
+//5. Funcionário com Maior Benefício:
+    
     public static Funcionario funcionarioComMaiorBeneficio(List<Funcionario> funcionariosComBeneficio, int mes, int ano) {
         Funcionario funcionarioMaiorBeneficio = null;
         double maiorBeneficio = Double.MIN_VALUE;
@@ -83,7 +86,8 @@ Outro detalhe é que seria bem mais recomendado criar entidades e tabelas no ban
         return funcionarioMaiorBeneficio;
     }
 
-    //6. Vendedor com Maior Valor Vendido:
+//6. Vendedor com Maior Valor Vendido:
+    
     public static Vendedor vendedorComMaiorVenda(List<Vendedor> vendedores, int mes, int ano) {
         Vendedor vendedorMaiorVenda = null;
         double maiorVenda = Double.MIN_VALUE;
